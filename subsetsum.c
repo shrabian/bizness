@@ -39,7 +39,7 @@ subsetsum(int A[], int n, int k){
 				i--;
 			}
 			n=trials[i-1];
-			k += trials[n];
+			k += A[n];
 			i--;
 		}
 		
